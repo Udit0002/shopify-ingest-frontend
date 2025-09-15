@@ -99,7 +99,7 @@
 // //   const customers = summary?.totalCustomers ?? 0;
 // //   const orders = summary?.totalOrders ?? 0;
 // //   const revenue = Number(summary?.totalRevenue ?? 0);
-// //   const revenueFormatted = revenue.toLocaleString(undefined, { style: 'currency', currency: 'USD' });
+// //   const revenueFormatted = revenue.toLocaleString(undefined, { style: 'currency', currency: 'INR' });
 
 // //   return (
 // //     <div className="p-6">
@@ -195,7 +195,7 @@
 // //                               <div className="text-xs text-gray-500">{c.email ?? '—'}</div>
 // //                             </div>
 // //                           </div>
-// //                           <div className="text-sm font-semibold">{Number(c.totalSpend).toLocaleString(undefined, { style: 'currency', currency: 'USD' })}</div>
+// //                           <div className="text-sm font-semibold">{Number(c.totalSpend).toLocaleString(undefined, { style: 'currency', currency: 'INR' })}</div>
 // //                         </li>
 // //                       ))}
 // //                     </ul>
@@ -239,7 +239,7 @@
 // //                   <td className="py-2">#{o.orderNumber}</td>
 // //                   <td className="py-2">{o.customerName ?? '—'}</td>
 // //                   <td className="py-2">{format(parseISO(o.createdAt), 'PP')}</td>
-// //                   <td className="py-2">{Number(o.total).toLocaleString(undefined, { style: 'currency', currency: 'USD' })}</td>
+// //                   <td className="py-2">{Number(o.total).toLocaleString(undefined, { style: 'currency', currency: 'INR' })}</td>
 // //                   <td className="py-2">{o.status}</td>
 // //                 </tr>
 // //               ))}
@@ -359,7 +359,7 @@
 //   const customers = summary?.totalCustomers ?? 0;
 //   const orders = summary?.totalOrders ?? 0;
 //   const revenue = Number(summary?.totalRevenue ?? 0);
-//   const revenueFormatted = revenue.toLocaleString(undefined, { style: 'currency', currency: 'USD' });
+//   const revenueFormatted = revenue.toLocaleString(undefined, { style: 'currency', currency: 'INR' });
 
 //   return (
 //     <div className="p-6">
@@ -462,7 +462,7 @@
 //                             </div>
 //                           </div>
 //                           <div className="text-sm font-semibold">
-//                             {Number(c.totalSpend).toLocaleString(undefined, { style: 'currency', currency: 'USD' })}
+//                             {Number(c.totalSpend).toLocaleString(undefined, { style: 'currency', currency: 'INR' })}
 //                           </div>
 //                         </li>
 //                       ))}
@@ -519,7 +519,7 @@
 //                     <td className="py-2">
 //                       {Number(o.total).toLocaleString(undefined, {
 //                         style: 'currency',
-//                         currency: o.currency || 'USD',
+//                         currency: o.currency || 'INR',
 //                       })}
 //                     </td>
 //                   </tr>
@@ -624,7 +624,7 @@ export default function DashboardPage() {
   const customers = summary?.totalCustomers ?? 0;
   const orders = summary?.totalOrders ?? 0;
   const revenue = Number(summary?.totalRevenue ?? 0);
-  const revenueFormatted = revenue.toLocaleString(undefined, { style: 'currency', currency: 'USD' });
+  const revenueFormatted = revenue.toLocaleString(undefined, { style: 'currency', currency: 'INR' });
 
   return (
     <div className="p-8 space-y-8 bg-gray-50 min-h-screen">
@@ -709,7 +709,7 @@ export default function DashboardPage() {
                         </div>
                       </div>
                       <div className="font-semibold">
-                        {Number(c.totalSpend).toLocaleString(undefined, { style: 'currency', currency: 'USD' })}
+                        {Number(c.totalSpend).toLocaleString(undefined, { style: 'currency', currency: 'INR' })}
                       </div>
                     </li>
                   ))}
@@ -762,7 +762,7 @@ export default function DashboardPage() {
                       <td className="px-4 py-2">
                         {Number(o.total).toLocaleString(undefined, {
                           style: 'currency',
-                          currency: o.currency || 'USD',
+                          currency: o.currency || 'INR',
                         })}
                       </td>
                     </tr>
