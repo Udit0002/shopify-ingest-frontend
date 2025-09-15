@@ -19,9 +19,9 @@ A Next.js application that provides insights and analytics for Shopify store own
     *   [React](https://reactjs.org/) - JavaScript library for building user interfaces.
     *   [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework for styling.
     *   [Lucide React](https://lucide.dev/) - Beautifully simple icons.
-    *   [Recharts](https://recharts.org/) - Composable charting library built on React components (commented out in current dashboard).
-    *   [Framer Motion](https://www.framer.com/motion/) - Animation library for React (commented out in current dashboard).
-    *   [React Datepicker](https://reactdatepicker.com/) - A simple and customizable datepicker component for React (commented out in current dashboard).
+    *   [Recharts](https://recharts.org/) - Composable charting library built on React components 
+    *   [Framer Motion](https://www.framer.com/motion/) - Animation library for React 
+    *   [React Datepicker](https://reactdatepicker.com/) - A simple and customizable datepicker component for React 
 
 *   **Backend**:
     *   [Node.js](https://nodejs.org/en) (Likely, based on API structure)
