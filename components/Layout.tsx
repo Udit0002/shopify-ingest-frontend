@@ -27,7 +27,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
                 <Link href="/tenants" className="hover:text-indigo-600">Tenants</Link>
                 <Link href="/dashboard" className="hover:text-indigo-600">Dashboard</Link>
-                <Link href="/sync" className="hover:text-indigo-600">Sync</Link>
               </nav>
             </div>
 
